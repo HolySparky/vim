@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LOC	zlog.h	/^#define LOC /;"	d
+STR_BUFFER_SIZE	zlog.c	/^#define STR_BUFFER_SIZE /;"	d	file:
+STR_BUFFER_SIZE	zlog.c	/^#undef STR_BUFFER_SIZE$/;"	d	file:
+ZLOG_BUFFER_FLUSH_SIZE	zlog.c	/^#define ZLOG_BUFFER_FLUSH_SIZE /;"	d	file:
+ZLOG_BUFFER_SIZE	zlog.c	/^#define ZLOG_BUFFER_SIZE /;"	d	file:
+ZLOG_BUFFER_STR_MAX_LEN	zlog.c	/^#define ZLOG_BUFFER_STR_MAX_LEN /;"	d	file:
+ZLOG_FLUSH_INTERVAL_SEC	zlog.c	/^#define ZLOG_FLUSH_INTERVAL_SEC /;"	d	file:
+ZLOG_H_	zlog.h	/^# define ZLOG_H_$/;"	d
+ZLOG_LOC	zlog.h	/^#define ZLOG_LOC /;"	d
+_zlog_buffer	zlog.c	/^char _zlog_buffer[ZLOG_BUFFER_SIZE][ZLOG_BUFFER_STR_MAX_LEN];$/;"	v
+_zlog_buffer_lock	zlog.c	/^static inline void _zlog_buffer_lock()$/;"	f	file:
+_zlog_buffer_mutex	zlog.c	/^pthread_mutex_t _zlog_buffer_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+_zlog_buffer_size	zlog.c	/^int _zlog_buffer_size = 0;$/;"	v
+_zlog_buffer_unlock	zlog.c	/^static inline void _zlog_buffer_unlock()$/;"	f	file:
+_zlog_flush_buffer	zlog.c	/^static void _zlog_flush_buffer()$/;"	f	file:
+main	example.c	/^int main(int argc, char* argv[])$/;"	f
+zlog	zlog.c	/^inline void zlog(char* filename, int line, char const * fmt, ...)$/;"	f
+zlog_buffer_flush_thread	zlog.c	/^void* zlog_buffer_flush_thread(void* arg)$/;"	f
+zlog_finish	zlog.c	/^void zlog_finish()$/;"	f
+zlog_finish_buffer	zlog.c	/^static inline void zlog_finish_buffer()$/;"	f	file:
+zlog_flush_buffer	zlog.c	/^void zlog_flush_buffer()$/;"	f
+zlog_fout	zlog.c	/^FILE* zlog_fout = NULL;$/;"	v
+zlog_get_buffer	zlog.c	/^static inline char* zlog_get_buffer()$/;"	f	file:
+zlog_init	zlog.c	/^void zlog_init(char const* log_file)$/;"	f
+zlog_init_flush_thread	zlog.c	/^void zlog_init_flush_thread()$/;"	f
+zlog_init_stdout	zlog.c	/^void zlog_init_stdout()$/;"	f
+zlog_time	zlog.c	/^inline void zlog_time(char* filename, int line, char const * fmt, ...)$/;"	f
+zlogf	zlog.c	/^inline void zlogf(char const * fmt, ...)$/;"	f
+zlogf_time	zlog.c	/^inline void zlogf_time(char const * fmt, ...)$/;"	f
