@@ -1,4 +1,4 @@
-" An example for a vimrc file.
+" an example for a vimrc file.
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -32,6 +32,13 @@ nnoremap <leader>t : tabe<CR>
 
 " Display line numbers
 :set number
+set textwidth=120
+
+" Set Tab
+set tabstop=4                " 设置Tab键的宽度        [等同的空格个数]  
+set shiftwidth=4  
+set expandtab                " 将Tab自动转化成空格    [需要输入真正的Tab键时，使用 Ctrl+V + Tab]  
+set softtabstop=4  
 
 " crontab compatability
 set backupskip=/tmp/*,/private/tmp/*
