@@ -15,14 +15,20 @@ endif
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
+
   syntax enable
   syntax on
-  set hlsearch
-  set guifont=Menlo\ Regular:h14
   set background=dark
+  let g:solarized_termtrans = 1
+  let g:solarized_visibility = "high"
+  let g:solarized_contrast = "high"
   colorscheme solarized
+
+  set hlsearch
+""  set guifont=Menlo\ Regular:h14
   set ai			" auto indent
 endif
+"darkblue2.vim darkbone.vim hhazure.vim ir_black.vim solarized.vim
 
 " Use Ctrl l/h to switch between tabs
 let mapleader = ','

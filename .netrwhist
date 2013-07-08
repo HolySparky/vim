@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/jianwen/conf.d'
-let g:netrw_dirhist_2='/Users/jianwen/workspace/jianwen.me'
-let g:netrw_dirhist_3='/Users/jianwen/conf.d'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/eaglezpf'
+let g:netrw_dirhist_2='/Users/eaglezpf/.vim'
+let g:netrw_dirhist_3='/Volumes/Macintosh HD/Users/eaglezpf/Dropbox/code/conf.d/vim/colors'
 let g:netrw_dirhist_4='/Users/eaglezpf/.vim'
-let g:netrw_dirhist_5='/Volumes/Macintosh HD/Users/eaglezpf/Dropbox/code/mygit/dwarf/ovs-agent'
-let g:netrw_dirhist_6='/Volumes/Macintosh HD/Users/eaglezpf/Dropbox/code/mygit/dwarf'
-let g:netrw_dirhist_7='/Users/eaglezpf/code/focus'
