@@ -41,10 +41,10 @@ nnoremap <leader>t : tabe<CR>
 set textwidth=120
 
 " Set Tab
-set tabstop=4                " 设置Tab键的宽度        [等同的空格个数]  
-set shiftwidth=4  
+set tabstop=8                " 设置Tab键的宽度        [等同的空格个数]  
+set shiftwidth=8  
 set expandtab                " 将Tab自动转化成空格    [需要输入真正的Tab键时，使用 Ctrl+V + Tab]  
-set softtabstop=4  
+set softtabstop=8 
 
 " crontab compatability
 set backupskip=/tmp/*,/private/tmp/*
